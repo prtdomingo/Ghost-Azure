@@ -54,9 +54,9 @@ class AzureStorageAdapter extends BaseStorage{
                   }
           
                   var parsedUrl = url.parse(urlValue, true, true);
-                  var protocol = (options.useHttps ? "https" : "http") + "://";
+                  // var protocol = (options.useHttps ? "https" : "http") + "://";
           
-                  resolve(protocol + options.cdnUrl  + parsedUrl.path);
+                  resolve(options.cdnUrl  + parsedUrl.path);
               }
           });
          }
