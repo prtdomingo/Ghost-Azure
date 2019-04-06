@@ -13,5 +13,10 @@
 		"frontend": {
 			"maxAge": 600
 		}
-	}
+	},
+	"active": "ghost-azure-storage",
+			"ghost-azure-storage": {
+				"connectionString": AZURE_STORAGE_CONNECTION_STRING,
+				"container": "assets"
+			}
 }

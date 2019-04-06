@@ -1,0 +1,59 @@
+{
+  "_from": "ghost-azure-storage",
+  "_id": "ghost-azure-storage@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-4qCAkjd6are7JQRCa1jdschm5cY=",
+  "_location": "/ghost-azure-storage",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ghost-azure-storage",
+    "name": "ghost-azure-storage",
+    "escapedName": "ghost-azure-storage",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ghost-azure-storage/-/ghost-azure-storage-2.0.0.tgz",
+  "_shasum": "e2a08092377a6ab7bb2504426b58ddb1c866e5c6",
+  "_spec": "ghost-azure-storage",
+  "_where": "C:\\Users\\v-phdomi\\Desktop\\Development\\GitHub\\Ghost-Azure",
+  "author": {
+    "name": "Tommy James Parnell"
+  },
+  "bugs": {
+    "url": "https://github.com/tparnell8/ghost-azurestorage/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "azure-storage": "~2.6.0",
+    "url": "^0.11.0"
+  },
+  "deprecated": false,
+  "description": "Store content from ghost in azure file storage",
+  "homepage": "http://tparnell.io",
+  "keywords": [
+    "ghost",
+    "microsoft",
+    "azure",
+    "storage",
+    "plugin",
+    "blog"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ghost-azure-storage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tparnell8/ghost-azurestorage.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0"
+}
