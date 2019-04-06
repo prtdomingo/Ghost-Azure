@@ -17,7 +17,9 @@
 	"storage": {
     "active": "ghost-azure-storage",
         "ghost-azure-storage": {
-          "container": "assets"
+          "container": "assets",
+          "useHttps": "true",
+          "cdnUrl": "https://prtdomingoassets.azureedge.net"
         }
   },
 }
