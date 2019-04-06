@@ -15,11 +15,11 @@
 		}
 	},
 	"storage": {
-        "active": "ghost-azure-storage",
-            "ghost-azure-storage": {
-                "container": "assets",
-                "useHttps": "true",
-                "cdnUrl": "https://prtdomingoassets.azureedge.net"
-            }
-    }
+    "active": "ghost-azure-storage",
+        "ghost-azure-storage": {
+          "container": "assets",
+          "useHttps": "true",
+          "cdnUrl": "prtdomingoassets.azureedge.net"
+        }
+  }
 }
